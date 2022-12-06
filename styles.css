@@ -48,6 +48,10 @@ body{
     background-color: var(--second-alpha-color);
 }
 
+.white-color {
+    color: var(--white-color);
+}
+
 a{
     color: var(--link-color);
     transition: all 0.5s ease-out;
@@ -417,7 +421,7 @@ p{
     padding: .5rem 1rem;
     width: 350px;
     text-align: center;
-    color: var(--title-color);
+    color: var(--white-color);
 }
 
 .text-first-color{
@@ -746,7 +750,7 @@ p{
 
 /*Tema oscuro*/
 
-.dark-theme-color{
+.dark-btn{
     position: fixed;
     z-index: 999;
     bottom: 4rem;

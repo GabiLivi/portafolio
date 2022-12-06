@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-dark>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,8 +23,8 @@
     <meta property="og:description" name="twitter:description" content="Hola, bienvenido a mi portafolio. Soy Gabriel Livi, Desarrollador Web">
     <meta property="og:type" content="website">
 </head>
-<body data-dark> 
-    <button class="dark-theme-color"></button>
+<body class="data-dark"> 
+    <button class="dark-btn">🌚</button>
     <header class="header">
        <section class="container">
         <div class="logo">
@@ -44,7 +44,7 @@
         </nav>
        </section>
     </header>
-    <section id="inicio" class="home" data-dark>
+    <section id="inicio" class="home data-dark">
         <article class="hero-image" style="--image: url(assets/hero-image-1.png); --attachment: fixed;">
             <aside class="hero-image-opacity" style="--opacity-color: var(--black-alpha-color);">
                 <div class="hero-image-content">
@@ -142,50 +142,26 @@
                 </article>
             </section>     
     </section>
-    <section id="servicios" class="services section bg-gray-light" data-dark>
-        <div class="container full-lg-screen" data-dark>
-            <h2 class="section-title" data-dark>Tecnologías</h2>
+    <section id="servicios" class="services section bg-gray-light">
+        <div class="container full-lg-screen">
+            <h2 class="section-title white-color">Tecnologías</h2>
             <article class="service-card" data-dark>
-                <img width="33" height="33" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="" srcset="">
-                <h3>HTML</h3>
-                <p>HyperText Markup Language es el componente más básico de la Web. 
-                    Define el significado y la estructura del contenido web.
-                     </p>
+                <img width="110" height="110" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="" srcset="">
             </article>
             <article class="service-card">
-                <img  width="33" height="33" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="" srcset="">
-                <h3>CSS</h3>
-                <p>Cascading Style Sheets. 
-                    Es para verte mejor.
-                    Utilizado para describir la presentación de documentos,
-                    CSS describe como debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios. 
-                </p>
+                <img  width="110" height="110"  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="" srcset="">
             </article>
             <article class="service-card">
-                <img   width="33" height="33" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="" srcset="">
-                <h3>JavaSript</h3>
-                <p>JavaScript es un lenguaje de programación basada en prototipos, 
-                    multiparadigma, de un solo hilo, dinámico, con soporte para programación 
-                    orientada a objetos, imperativa y declarativa (por ejemplo programación 
-                    funcional).</p>
+                <img   width="110" height="110"  src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="" srcset="">
             </article>
             <article class="service-card">
-                <img  width="33" height="33" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" srcset="">
-                <h3>Git y GitHub</h3>
-                <p>Sistema de control de 
-                    versiones (VCS), una herramienta que les permita colaborar
-                    con otros desarrolladores en un proyecto sin peligro de que
-                    sobrescriban el trabajo de los demás!</p>
+                <img  width="110" height="110"  src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" srcset="">
             </article>
             <article class="service-card">
-                <img  width="33" height="33" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="" srcset="">
-                <h3>Boostrap</h3>
-                <p>Comenzando a aprender sobre este framwork</p>
+                <img  width="110" height="110"  src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="" srcset="">
             </article>
             <article class="service-card">
-                <img   width="33" height="33" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="" srcset="">
-                <h3>React</h3>
-                <p>Comenzando a aprender sobre está tecnología</p>
+                <img   width="110" height="110"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="" srcset="">
             </article>
         </div>
     </section>
@@ -434,7 +410,7 @@
             <aside class="hero-image-opacity" style="--opacity-color: var(--white-alpha-color);">
                 <div class="hero-image-content">
                     <div class="container">
-                        <h2 class="section-title">Mis Clientes Dicen</h2>
+                        <h2 class="section-title" style="color: black;">Mis Clientes Dicen</h2>
                         <article class="carousel" style="--carousel-bg-color: var(--second-color);">
                             <input type="radio" name="slides" id="slide-1" checked>
                             <input type="radio" name="slides" id="slide-2">
@@ -548,6 +524,6 @@
     </footer>
     <!--<button class="dark-theme-color"></button>-->
   
-    <script src="script.js" type="module"></script>   
+    <script src="script.js"></script>   
 </body>
 </html>

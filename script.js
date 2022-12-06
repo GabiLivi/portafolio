@@ -1,9 +1,23 @@
-/*Menu*/
+const $dark = document.querySelector(".dark-btn");
+const $darkMode = document.querySelector(".data-dark");
 
-import { darkBoton } from "/dark-mode.js";
+$dark.addEventListener("click", darkMode);
+
+function darkMode() {
+    
+    $darkMode.classList.toggle("dark-mode");
+    
+    if($darkMode.classList.contains("dark-mode")){
+        $dark.innerHTML = "😎";
+    } else {
+        $dark.innerHTML = "🌚";
+    }
+};
 
 
-darkBoton(".dark-theme-color", "dark-mode");
+
+
+
 
 ((d)=>{
     const $btnMenu = d.querySelector(".menu-btn");
@@ -66,16 +80,4 @@ const d = document;
 
 
 
-((d)=>{
-    const $btnDark = d.querySelector(".dark-theme-color");
-    const $bodyDark = d.querySelectorAll(".body");
-    const $darkMode = d.querySelector(".dark-mode");
 
-
-
-    $btnDark.addEventListener("click", (e)=>{
-        $bodyDark.classList.toggle($darkMode);
-    });
-   
-
-})(document);
